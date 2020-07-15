@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="style.css"/>
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">-->
+    <title>WORD.ly</title>
+
+
+
+</head>
+<body>
+    <header>
+        <h1 class="title">WORD.ly-learn words</h1>
+        <nav class="navigation_bar">
+            <div class="row">
+                <div class="six columns">
+                    <a href="client.html"><button>home</button></a>
+                </div>
+                <div class="six columns">
+                    <a href="list.html"><button>list</button></a>
+                </div>                
+                
+            </div>
+            
+        </nav>
+    </header>
+    <div  class="row" id="main_buttons">
+        <div class="six columns">
+         <button class="button-primary" id="addbutton">ADD WORDS✔</button>
+
+        </div>
+            
+        <div class="six columns">
+            <button class="button-primary" id="learnbutton">LEARN WORDS👩‍🏫</button>
+
+        </div>
+      
+            
+       
+    </div>
+    <form class="addwordform">
+       
+        
+            <label for="addword">ADD WORD</label>
+            <input class="u-width-full" type="text" name="addword" id ="addword">
+
+        
+        
+            <button class="button-primary" id="search">SEARCH</button>   
+            <div class="loading">
+                <img src="loader.gif"/>
+            </div> <br>
+       <!-- <label for="addmeaning">ADD MEANING</label>
+        <textarea class="u-width-full" type="text" name="addmeaning" id ="addmeaning"></textarea>--> 
+        MEANING:<span id = "meaning-nik"></span><br>
+        PRONOUNCIATION:<span id = "pro-nik"></span><br>
+        EXAMPLES:<span id = "examples-nik"></span><br>
+        <audio id="voice" src="" type="audio/mp3"></audio>
+        <button id="audio-nik">&#128266;</button>
+        <label for="addiscription">ADD DISCRIPTION</label>
+        <textarea class="u-width-full" type="text" name="addiscription" id ="addiscription"></textarea><p></p>
+        <button id="easy">EASY(in 3 days)</button>
+        <button id="hard">HARD(in 1 day)</button>
+        <p><small>this word will appear in learn section in <span id="view_days"></span></small></p>
+    <button class="button-primary" id="final_submit">SUBMIT</button>
+    </form>
+    <div class="learnform">
+    </div>
+    <script src="client.js"></script>
+
+</body>
+</html>

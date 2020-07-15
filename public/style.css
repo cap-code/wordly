@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+}
+#main_buttons{
+    text-align: center;
+    width:50%;
+    margin:0 auto;
+    position: relative;
+    top:100px;
+}
+.addwordform{
+    width:50%;
+    text-align: left;
+    margin:0 auto;
+}
+.navigation_bar{
+    width:80%;
+    margin:0 auto;
+    text-align:center;
+}
+.loading{
+    text-align: center;
+}
