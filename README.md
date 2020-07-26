@@ -1,6 +1,6 @@
 # wordly
 It is an web app were u could learn words.
-u could serach for a word and it will show the meaning of it.
+u could search for a word and it will show the meaning of it.
 it uses wordnik API
 ## How to use it
  __home__ --> it will be the home page 
